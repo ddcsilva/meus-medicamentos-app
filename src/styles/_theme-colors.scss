@@ -4,20 +4,20 @@
 $_palettes: (
   primary: (
     0: #000000,
-    10: #140067,
-    20: #2600a1,
-    25: #300eb8,
-    30: #3d25c3,
-    35: #4936ce,
-    40: #5545db,
-    50: #6f60f5,
-    60: #8b80ff,
-    70: #a8a0ff,
-    80: #c5c0ff,
-    90: #e4dfff,
-    95: #f3eeff,
-    98: #fcf8ff,
-    99: #fffbff,
+    10: #002b31,
+    20: #00424a,
+    25: #004c55,
+    30: #005a63,
+    35: #00656e,
+    40: #006d77,
+    50: #238690,
+    60: #3ea0aa,
+    70: #5cbac5,
+    80: #7fd4df,
+    90: #a9ecf4,
+    95: #d0f6f9,
+    98: #e5fafc,
+    99: #f2fcfd,
     100: #ffffff,
   ),
   secondary: (
@@ -125,7 +125,7 @@ $_palettes: (
 $_rest: (
   secondary: map.get($_palettes, secondary),
   neutral: map.get($_palettes, neutral),
-  neutral-variant: map.get($_palettes,  neutral-variant),
+  neutral-variant: map.get($_palettes, neutral-variant),
   error: map.get($_palettes, error),
 );
 
